@@ -1,0 +1,51 @@
+<?xml version="1.0"?> 
+<!DOCTYPE bookstore [ 
+<!ELEMENT bookstore (book)> 
+<!ELEMENT book (bookname,bookprice,bookauthor,booknumber,pages)> 
+<!ELEMENT bookname (#PCDATA)> 
+<!ELEMENT bookprice (#PCDATA)> 
+<!ELEMENT bookauthor (#PCDATA)> 
+<!ELEMENT booknumber (#PCDATA)> 
+ 
+<!ELEMENT pages (#PCDATA)> 
+
+]> 
+
+
+<bookstore>
+<book>
+<bookname> The god of small things Book</bookname>
+<bookauthor>Arundhati Roy</bookauthor>
+<bookprice>$549</bookprice>
+<ISBN>876042</ISBN>
+<pages>356</pages>
+</book>
+<book>
+<bookname> A Suitable Boy  Book</bookname>
+<bookauthor>Vikram seth</bookauthor>
+<bookprice>$300</bookprice>
+<ISBN>761560</ISBN>
+<pages>1349</pages>
+</book>
+<book>
+<bookname> The guide Book</bookname>
+<bookauthor>RK Narayan</bookauthor>
+<bookprice>$250</bookprice>
+<ISBN>685347</ISBN>
+<pages>217</pages>
+</book>
+<book>
+<bookname> Combat of shadows Book</bookname>
+<bookauthor>Manohar Malgonkar</bookauthor>
+<bookprice>$400</bookprice>
+<ISBN>906378</ISBN>
+<pages>136</pages>
+</book>
+<book>
+<bookname>The complete works book</bookname>
+<bookauthor>Swami Vivekananda</bookauthor>
+<bookprice>$600</bookprice>
+<ISBN>573469</ISBN>
+<pages>4961</pages>
+</book>
+</bookstore>
